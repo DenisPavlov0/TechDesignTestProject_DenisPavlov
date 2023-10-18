@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56525
+49407
 Successfully changed project path to: /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov
 /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/mac/Documents/GitHub/TechDesignTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704557815552] Host "[IP] 192.168.30.17 [Port] 0 [Flags] 2 [Guid] 2497822071 [EditorId] 2497822071 [Version] 1048832 [Id] OSXEditor(0,192.168.30.17) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704282597120] Host "[IP] 192.168.30.17 [Port] 0 [Flags] 2 [Guid] 1261206855 [EditorId] 1261206855 [Version] 1048832 [Id] OSXEditor(0,192.168.30.17) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704557815552] Host "[IP] 192.168.30.17 [Port] 0 [Flags] 2 [Guid] 2497822071 [EditorId] 2497822071 [Version] 1048832 [Id] OSXEditor(0,192.168.30.17) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704282597120] Host "[IP] 192.168.30.17 [Port] 0 [Flags] 2 [Guid] 1261206855 [EditorId] 1261206855 [Version] 1048832 [Id] OSXEditor(0,192.168.30.17) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 680.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1337.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,563 +73,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56674
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003948 seconds.
+Registered in 0.002212 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 369.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 588.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.617 seconds
+- Completed reload, in  5.473 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3617ms)
-		BeginReloadAssembly (721ms)
+	ReloadAssembly (5474ms)
+		BeginReloadAssembly (396ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2207ms)
-			LoadAssemblies (734ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (3791ms)
+			LoadAssemblies (387ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (798ms)
+			SetupTypeCache (897ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1211ms)
+			RebuildScriptCaches (240ms)
+			SetupLoadedEditorAssemblies (2151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (370ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (589ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (693ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
+				ProcessInitializeOnLoadAttributes (1141ms)
+				ProcessInitializeOnLoadMethodAttributes (387ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008414 seconds.
+Registered in 0.021630 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 268.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.752 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7754ms)
-		BeginReloadAssembly (1031ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (6375ms)
-			LoadAssemblies (3199ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1426ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (169ms)
-			SetupLoadedEditorAssemblies (2060ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (269ms)
-				BeforeProcessingInitializeOnLoad (369ms)
-				ProcessInitializeOnLoadAttributes (1181ms)
-				ProcessInitializeOnLoadMethodAttributes (229ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5508 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (1.4 MB). Loaded Objects now: 5940.
-Memory consumption went from 121.9 MB to 120.5 MB.
-Total: 7.053656 ms (FindLiveObjects: 0.506695 ms CreateObjectMapping: 0.374212 ms MarkObjects: 4.970671 ms  DeleteObjects: 1.200708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28051.700163 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(7b40ca976a8a141ea9cf456c86669b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(7b40ca976a8a141ea9cf456c86669b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b513691a85ca9a27d08df3162f78aed8') in 1.885286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 143.376903 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3286a7ace9f70c56b4afbbe5aa1f043f') in 0.350530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361bc3d5f13dcf5e2215084dfc2b45ff') in 0.026586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Settings/Renderer2D.asset
-  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247e036f149eff6b0c2249360a353b23') in 0.006189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.124166 seconds.
-  path: Assets/Images
-  artifactKey: Guid(bb77eed7d1b2c4d188136cbb70c7efbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(bb77eed7d1b2c4d188136cbb70c7efbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a31b8bd242f440f059f30dd2bffd7') in 0.002467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.251931 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(11afc86c16b844dc8bfb8124720531ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(11afc86c16b844dc8bfb8124720531ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eea10cb8eb49020151e04d7729d7ff') in 0.003740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.238524 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(7ed25056bcf0549128b87a6fd8d263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(7ed25056bcf0549128b87a6fd8d263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cc5a5093a28ff6566ca65a9339832d') in 0.002927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 132.924392 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa03306ee556725ee1b91afa648f63ad') in 0.008236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.633466 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef13bb1dfc9a810dcac12450e6ab388') in 0.006173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.513514 seconds.
-  path: Assets/Scenes/first_scene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/first_scene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda315b7226911d419f7a5201a6dbd32') in 0.003048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.360642 seconds.
-  path: Assets/Scenes/second_scene.unity
-  artifactKey: Guid(17013f686e37541ef944448dab47d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/second_scene.unity using Guid(17013f686e37541ef944448dab47d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ed3dafd2550be1f8ae2629b8a235e4') in 0.003470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 385.548374 seconds.
-  path: Assets/Images/background
-  artifactKey: Guid(36efd64fb37e14ab280dcc0ccbd2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background using Guid(36efd64fb37e14ab280dcc0ccbd2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833462666cf6768cb9417d8b7f624107') in 0.005127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.292736 seconds.
-  path: Assets/Images/Background
-  artifactKey: Guid(36efd64fb37e14ab280dcc0ccbd2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Background using Guid(36efd64fb37e14ab280dcc0ccbd2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6872bd3b559076aafb1d5e4875dbf7ec') in 0.004689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.609937 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.002868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1864.297768 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/4.png
-  artifactKey: Guid(fb60aeaa01ef246368ca8daa886cd00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/4.png using Guid(fb60aeaa01ef246368ca8daa886cd00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9f6f06d2d3268e487db09e01c66dde') in 1.498126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/3.png
-  artifactKey: Guid(b49b1ceb4ac6e446a9ebe35a5784334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/3.png using Guid(b49b1ceb4ac6e446a9ebe35a5784334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6796c43687694166602949d4a60e18a') in 0.207824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318651 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/2.png
-  artifactKey: Guid(a92009a8b8e074c70a4947f96d4847df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/2.png using Guid(a92009a8b8e074c70a4947f96d4847df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d222088fe51f565432ebd064132871f') in 0.120128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.209045 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/1.png
-  artifactKey: Guid(d000e1cdd08c14aa699dc1353c457802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/1.png using Guid(d000e1cdd08c14aa699dc1353c457802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc6d11c5801988dd8283b40614cde9e') in 0.172146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.519376 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/background.png
-  artifactKey: Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/background.png using Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5f066b01877ed7ce6693ba857a4116') in 0.186100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.215030 seconds.
-  path: Assets/Images/background/desert_backgrounds/4/background.png
-  artifactKey: Guid(0b3ec745553194c478eef673e7bf830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/4/background.png using Guid(0b3ec745553194c478eef673e7bf830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07da23b8005a3ca298cb9bb6c3ac5fb9') in 0.186847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.674712 seconds.
-  path: Assets/Images/background/desert_backgrounds/3/background.png
-  artifactKey: Guid(954564d1b181f44d19af8c4dda1c6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/3/background.png using Guid(954564d1b181f44d19af8c4dda1c6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910b43e86c9d13cfbf90f77c2d4d204') in 0.147493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.176018 seconds.
-  path: Assets/Images/background/desert_backgrounds/2/background.png
-  artifactKey: Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/2/background.png using Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e743f6d74ff372d16d59f6906f0593a') in 0.192906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 177.977796 seconds.
-  path: Assets/Images/background/desert_backgrounds/1/5.png
-  artifactKey: Guid(96be11c5d4b214a7096b43b503f02e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1/5.png using Guid(96be11c5d4b214a7096b43b503f02e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7875d1bc6f60e778ba4d324a78d07fd') in 0.307845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.894968 seconds.
-  path: Assets/Images/background/desert_backgrounds/2
-  artifactKey: Guid(f67246f53675841c4981286cb77202ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/2 using Guid(f67246f53675841c4981286cb77202ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5766ae3f6fe9cec1ce26e67d304ab235') in 0.002849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.314559 seconds.
-  path: Assets/Images/background/desert_backgrounds/3
-  artifactKey: Guid(956d41302a3e747f39959589a74b1bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/3 using Guid(956d41302a3e747f39959589a74b1bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e806c3eed4b107f106557b0a4576513') in 0.001683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.601701 seconds.
-  path: Assets/Images/background/desert_backgrounds/4
-  artifactKey: Guid(bddd4ca7ed4b3425bbb01291767e92cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/4 using Guid(bddd4ca7ed4b3425bbb01291767e92cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3398fa8ec29b48fa1dd7c5558df4c75a') in 0.003422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.841668 seconds.
-  path: Assets/Images/background/desert_backgrounds/background - Copy.png
-  artifactKey: Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/background - Copy.png using Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92083513e33b842f82987d105a1ee31f') in 0.405924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.891554 seconds.
-  path: Assets/Images/background/desert_backgrounds/LICENSES.txt
-  artifactKey: Guid(f49465966315b49a5ae915a40ce8e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/LICENSES.txt using Guid(f49465966315b49a5ae915a40ce8e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2899e94b04ac3570e98e1fd92ea6acd5') in 10.398652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Images/background/desert_backgrounds/1
-  artifactKey: Guid(77d9571659075456ca2da3d61a3d38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/1 using Guid(77d9571659075456ca2da3d61a3d38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c655cb871ffbc8bbcd4ec4769d39647b') in 0.096286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Images/background/desert_backgrounds
-  artifactKey: Guid(f4899d655aba5463986a855b8185154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds using Guid(f4899d655aba5463986a855b8185154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961048103ba4bce7f5bc179d9cae3d45') in 0.004737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.230905 seconds.
-  path: Assets/Images/static_sprites
-  artifactKey: Guid(1d9dae09a7c17413d995fee2e1d7aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites using Guid(1d9dae09a7c17413d995fee2e1d7aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5061c7c2921d1fce481a75de9db169') in 0.004501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.102786 seconds.
-  path: Assets/Images/background/desert_backgrounds/second_scene_background.png
-  artifactKey: Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/second_scene_background.png using Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f7bf114e48da220dd796a1768e5def') in 0.460392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.359057 seconds.
-  path: Assets/Images/background/desert_backgrounds/second_scene_background.png
-  artifactKey: Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/second_scene_background.png using Guid(d4fbd529303a342249a32a96de309cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5871c04ac3e78e65c445ebe10f15ade') in 0.503574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.352959 seconds.
-  path: Assets/Images/background/desert_backgrounds/first_scene_background.png
-  artifactKey: Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/first_scene_background.png using Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90960cf474765646e4318ba863feb9a') in 0.353921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.368792 seconds.
-  path: Assets/Images/background/desert_backgrounds/first_scene_background.png
-  artifactKey: Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background/desert_backgrounds/first_scene_background.png using Guid(dcbb1844e9f0a475f83f070a3c5a65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cebf221e8ae54fb6c7239bb9e335899') in 0.381298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 659.793103 seconds.
-  path: Assets/Images/static_sprites/cactus_static_sprites.png
-  artifactKey: Guid(a88ea00e72bed4794bbf75d0b275c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/cactus_static_sprites.png using Guid(a88ea00e72bed4794bbf75d0b275c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0182ab531323bbb4fa1351d7f8c55488') in 0.028646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.746522 seconds.
-  path: Assets/Images/static_sprites/cactus_static_sprites.png
-  artifactKey: Guid(a88ea00e72bed4794bbf75d0b275c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/cactus_static_sprites.png using Guid(a88ea00e72bed4794bbf75d0b275c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c305995185c77c17bbc48a64c78a4764') in 0.018756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 468.445568 seconds.
-  path: Assets/Images/static_sprites/planet_red_static_sprite.png
-  artifactKey: Guid(8579c1c4fa17e436faeae849f1866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/planet_red_static_sprite.png using Guid(8579c1c4fa17e436faeae849f1866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6f879d17875a4e7baa125c26c5f6fc') in 0.366476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.578390 seconds.
-  path: Assets/Images/static_sprites/planet_red_static_sprite.png
-  artifactKey: Guid(8579c1c4fa17e436faeae849f1866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/planet_red_static_sprite.png using Guid(8579c1c4fa17e436faeae849f1866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece3a114d75b17be5206eed17669479') in 0.360822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 480.711181 seconds.
-  path: Assets/Images/static_sprites/radio_static_sprite.png
-  artifactKey: Guid(884a40eb4fb534f95b78124823c048f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/radio_static_sprite.png using Guid(884a40eb4fb534f95b78124823c048f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c5112d7b88228b060b72963e92e946') in 0.017072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.581948 seconds.
-  path: Assets/Images/static_sprites/table_static_sprite.png
-  artifactKey: Guid(97df892d0f5114d73baaa2be6e095f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/table_static_sprite.png using Guid(97df892d0f5114d73baaa2be6e095f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02655421d66176c6664482e506817753') in 0.014764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.038382 seconds.
-  path: Assets/Images/static_sprites/table_static_sprite.png
-  artifactKey: Guid(97df892d0f5114d73baaa2be6e095f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/table_static_sprite.png using Guid(97df892d0f5114d73baaa2be6e095f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c640f9143aceccaef3c6367cb97fd1f') in 0.016242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.976780 seconds.
-  path: Assets/Images/static_sprites/radio_static_sprite.png
-  artifactKey: Guid(884a40eb4fb534f95b78124823c048f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/static_sprites/radio_static_sprite.png using Guid(884a40eb4fb534f95b78124823c048f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c7f13478c8005c0271bb51a8032fcd') in 0.014485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 375.220202 seconds.
-  path: Assets/Images/animation_sprites
-  artifactKey: Guid(7e9a62ccfe8e34b60b15748cb5556950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites using Guid(7e9a62ccfe8e34b60b15748cb5556950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc61ff6815f7cb3bd9c4b6d6981bd9') in 0.001367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.669632 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt1.png
-  artifactKey: Guid(fd3195311d25143ee82e2b02c224c905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt1.png using Guid(fd3195311d25143ee82e2b02c224c905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19adc5ec774d2cf966efbf488b65683') in 0.027984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.894808 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt2.png
-  artifactKey: Guid(7b0072ce98e364b879e765ad4de56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt2.png using Guid(7b0072ce98e364b879e765ad4de56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0142eab5f6b2fba9c71a48df9dc2bd9') in 0.028967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.002599 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt3.png
-  artifactKey: Guid(5a21e027f07124644b5c363b8f1b1b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt3.png using Guid(5a21e027f07124644b5c363b8f1b1b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604b62353af9219824867cd3e90752fa') in 0.031445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.155601 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt4.png
-  artifactKey: Guid(30a75510e21524e019bec5a1976bc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt4.png using Guid(30a75510e21524e019bec5a1976bc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bfb4dcd442d869f3cb8f697d76cc10') in 0.030683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.903992 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt5.png
-  artifactKey: Guid(3546e4e95173a40cdb8ba0ed87031e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Hurt5.png using Guid(3546e4e95173a40cdb8ba0ed87031e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5172d38931a9162611b0aa5bb4a5cd') in 0.024418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.656247 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle1.png
-  artifactKey: Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle1.png using Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f59fe020757237767b49af6f77b0f49') in 0.027283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.683541 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle3.png
-  artifactKey: Guid(41e8ea57d88b440e28931c289eda156b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle3.png using Guid(41e8ea57d88b440e28931c289eda156b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8a33019d2cbdd84a91a835bb768a8e') in 0.029773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.473385 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle4.png
-  artifactKey: Guid(65efaaf8eaf3a4c2890eaae91f1e29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle4.png using Guid(65efaaf8eaf3a4c2890eaae91f1e29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bca9901391259ac0c4c9960bbb7b5d') in 0.027929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.874624 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk1.png
-  artifactKey: Guid(193d9fd44202d43f7bc7a5b34e612542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk1.png using Guid(193d9fd44202d43f7bc7a5b34e612542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7095d76f5cf78780c3a717b3dcc739') in 0.025132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.591359 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk2.png
-  artifactKey: Guid(b8b6729e7853b42208de0e9a62ddc8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk2.png using Guid(b8b6729e7853b42208de0e9a62ddc8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa78bff0e31606e2625224e03d407b1') in 0.034171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.592923 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk3.png
-  artifactKey: Guid(c4870adb220014dee8a9dbb6004c5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk3.png using Guid(c4870adb220014dee8a9dbb6004c5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba587741a93d4e405ebafa029e47b9ec') in 0.030740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.630884 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk4.png
-  artifactKey: Guid(879b3b3943de24e3189d5b197facbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk4.png using Guid(879b3b3943de24e3189d5b197facbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0524ab18230f8cbc53786097cf38f77') in 0.029705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.720564 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk5.png
-  artifactKey: Guid(681553845e78d4b7fad08a5b4e2b3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk5.png using Guid(681553845e78d4b7fad08a5b4e2b3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad130151937acb8e201ca0f762d43c9c') in 0.025201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.536958 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk6.png
-  artifactKey: Guid(53e824dde57ef42fdbcbe1c579161e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Walk6.png using Guid(53e824dde57ef42fdbcbe1c579161e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d538340338aeeb79a6d99a933359ba') in 0.033134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.980416 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle2.png
-  artifactKey: Guid(9cf98db7580f643f89035656fce8ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Idle2.png using Guid(9cf98db7580f643f89035656fce8ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6125679815a959865975e48301fd8c49') in 0.027919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.276237 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Jump2.png
-  artifactKey: Guid(11486d4195fd64b87a89cde226160e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/Jump2.png using Guid(11486d4195fd64b87a89cde226160e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d306945fa07e038c78535e76dabde4') in 0.032220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.938414 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_01.png
-  artifactKey: Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_01.png using Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3336a5b38e44dcd3ce1058d5830202d1') in 0.025942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.039165 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_02.png
-  artifactKey: Guid(9cf98db7580f643f89035656fce8ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_02.png using Guid(9cf98db7580f643f89035656fce8ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9642756ba9afb1e4b6d93a619112a2a6') in 0.031975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.334647 seconds.
-  path: Assets/animation_sprites_group.controller
-  artifactKey: Guid(30f83df21480543698334fdc3d88035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation_sprites_group.controller using Guid(30f83df21480543698334fdc3d88035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2d20f15811cca920c0388a3769c295') in 0.188126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 300.469610 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_01.png
-  artifactKey: Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_01.png using Guid(6ddbf1b98dc84495c9ef789ee611b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f7b55c1078cb1799b704fb9f54dd82') in 0.029709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.512221 seconds.
-  path: Assets/Animations/zombie_animation
-  artifactKey: Guid(f9b058adac0de4f26aea7942c2526f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/zombie_animation using Guid(f9b058adac0de4f26aea7942c2526f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053902f5b6d7dc8088808afc1542b26') in 0.001745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.411319 seconds.
-  path: Assets/zombie_idle_01.controller
-  artifactKey: Guid(1ca351e64b6cb4ee2b36ca4f3a13a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zombie_idle_01.controller using Guid(1ca351e64b6cb4ee2b36ca4f3a13a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b51c2754458102c086dc0c1348089a') in 0.005040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.212511 seconds.
-  path: Assets/zombie_idle_animation.anim
-  artifactKey: Guid(bf62ea09345d241fdb22134f3b248248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zombie_idle_animation.anim using Guid(bf62ea09345d241fdb22134f3b248248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520c3d5ad9caf040ae6328a30067502f') in 0.214631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.347762 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle.anim
-  artifactKey: Guid(f731ac91c19474d06b1d31ccdcd87824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle.anim using Guid(f731ac91c19474d06b1d31ccdcd87824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd78be786c54467942667f52fce385bd') in 0.003490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.680979 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_03.png
-  artifactKey: Guid(41e8ea57d88b440e28931c289eda156b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_03.png using Guid(41e8ea57d88b440e28931c289eda156b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88b16e748dc17807cb5d6d2129dbf62') in 0.027515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_04.png
-  artifactKey: Guid(65efaaf8eaf3a4c2890eaae91f1e29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/animation_sprites/zombie_punk_character_sprite/Animation/zombie_idle_04.png using Guid(65efaaf8eaf3a4c2890eaae91f1e29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3afb8fa4edf6a605e68b74325e46fac') in 0.030865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.926569 seconds.
-  path: Assets/zombie_idle.anim
-  artifactKey: Guid(de5bfbbf15f0c4f339d922efbd38e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zombie_idle.anim using Guid(de5bfbbf15f0c4f339d922efbd38e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f678bb22cefe7a29e2519337cb003f8') in 0.004374 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011324 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/mac/Documents/GitHub/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/TechDesignTestProject_DenisPavlov/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 11.982 seconds
-Domain Reload Profiling:
-	ReloadAssembly (11987ms)
-		BeginReloadAssembly (865ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (55ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (264ms)
-		EndReloadAssembly (10118ms)
-			LoadAssemblies (691ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3066ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (609ms)
-			SetupLoadedEditorAssemblies (5159ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (707ms)
-				ProcessInitializeOnLoadAttributes (3660ms)
-				ProcessInitializeOnLoadMethodAttributes (740ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (96ms)
-Platform modules already initialized, skipping
