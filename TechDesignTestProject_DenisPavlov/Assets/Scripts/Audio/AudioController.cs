@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,7 +11,10 @@ public class AudioController : MonoBehaviour
 
     [Header("Audio Clips")]
     [SerializeField] private AudioClip firstSceneBackgroundMusic; 
-    [SerializeField] private AudioClip secondSceneBackgroundMusic; 
+    [SerializeField] private AudioClip secondSceneBackgroundMusic;
+    [Header("SFX")]
+    [SerializeField] public AudioClip door_knock_sfx;
+    [SerializeField] public AudioClip letter_mix_sfx;
     
 
     private void Awake()
@@ -27,25 +27,24 @@ public class AudioController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        SceneManager.sceneLoaded += OnSceneLoaded;
         DontDestroyOnLoad(gameObject);
-        
     }
-
-    private void Start()
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        switch (currentScene.name)
+        switch (scene.name) 
         {
             case GlobalConstants.FIRST_SCENE_TAG:
-                PlayBackgroundMusic(firstSceneBackgroundMusic);
+                PlayBackgroundMusic(firstSceneBackgroundMusic); 
                 break;
             case GlobalConstants.SECOND_SCENE_TAG:
-                PlayBackgroundMusic(secondSceneBackgroundMusic);
+                PlayBackgroundMusic(secondSceneBackgroundMusic); 
                 break;
             default:
                 break;
         }
     }
+    
     
     public void PlayBackgroundMusic(AudioClip clip)
     {
@@ -55,5 +54,11 @@ public class AudioController : MonoBehaviour
         }
         backgroundMusicSource.clip = clip;
         backgroundMusicSource.Play();
+    }
+
+    public void PlaySoundEffect(AudioClip clip)
+    {
+        soundEffectsSource.clip = clip;
+        soundEffectsSource.Play();
     }
 }
