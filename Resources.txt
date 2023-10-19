@@ -1,0 +1,27 @@
+Ресурсы к тестовому заданию на должность технического дизайнера (Elephant Games)
+
+
+——————
+
+Background image:
+https://opengameart.org/content/minimalist-4k-backgrounds
+
+—————————
+Sprites:
+
+dj remote control: <a href="https://ru.freepik.com/free-vector/music-dj-controller-icon-on-white-background_33466374.htm#query=%D0%BF%D1%83%D0%BB%D1%8C%D1%82%20%D0%B4%D0%B8%D0%B4%D0%B6%D0%B5%D1%8F&position=47&from_view=keyword&track=ais">Изображение от brgfx</a> на Freepik
+
+Letter-tiles:
+https://kenney.nl/assets/letter-tiles
+
+Heart:
+https://opengameart.org/content/heart-achievement-effect-animation
+
+Stars:
+https://opengameart.org/content/star
+
+Audio:
+https://pixabay.com/ru/service/license-summary/
+
+Fonts:
+https://fonts.google.com/specimen/Caveat
