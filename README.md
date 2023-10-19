@@ -22,3 +22,7 @@
 
 <img src="https://github.com/DenisPavlov0/TechDesignTestProject_DenisPavlov/blob/main/Image/second_scene.png" alt="image" width="800" height="600">
 
+<b>Скриншот из Git-клиента</b>
+
+<img src="https://github.com/DenisPavlov0/TechDesignTestProject_DenisPavlov/blob/main/Image/git_client.png" alt="image" width="800" height="600">
+
