@@ -385,6 +385,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1978009064}
+    - target: {fileID: 6344699785298111696, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6344699785298111699, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
       propertyPath: m_Name
       value: ui_canvas
@@ -477,6 +481,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6612015261955958727}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344699785536738539, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 429
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e33de521ceb443fae345778ac9f3b2, type: 3}
 --- !u!114 &6612015261955958727 stripped
