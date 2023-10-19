@@ -15,6 +15,11 @@ public class AudioController : MonoBehaviour
     [Header("SFX")]
     [SerializeField] public AudioClip door_knock_sfx;
     [SerializeField] public AudioClip letter_mix_sfx;
+    [SerializeField] public AudioClip note_group_sfx;
+    [SerializeField] public AudioClip exit_sfx;
+    [Header("Voice")] 
+    [SerializeField] public AudioClip character_voice;
+    
     
 
     private void Awake()
@@ -25,7 +30,7 @@ public class AudioController : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            return;
         }
         SceneManager.sceneLoaded += OnSceneLoaded;
         DontDestroyOnLoad(gameObject);

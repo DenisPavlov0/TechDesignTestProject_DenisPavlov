@@ -6,6 +6,9 @@ TagManager:
   tags:
   - elephant
   - door
+  - dj_remote
+  - character
+  - exit
   layers:
   - Default
   - TransparentFX

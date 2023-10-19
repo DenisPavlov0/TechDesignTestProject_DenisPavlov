@@ -56,9 +56,12 @@ MonoBehaviour:
   soundEffectsSource: {fileID: 9128740135027646675}
   voiceSource: {fileID: 9128740134392438107}
   firstSceneBackgroundMusic: {fileID: 8300000, guid: 63b941eb4645d4a91886144f3f894781, type: 3}
-  secondSceneBackgroundMusic: {fileID: 0}
+  secondSceneBackgroundMusic: {fileID: 8300000, guid: 938df684f678045c882e35c75308d555, type: 3}
   door_knock_sfx: {fileID: 8300000, guid: f02ad0221f84e45c195720257c67873c, type: 3}
   letter_mix_sfx: {fileID: 8300000, guid: f183c9a6b0bde41f6978336c2d335591, type: 3}
+  note_group_sfx: {fileID: 8300000, guid: 93d063f80647d4ec8bcd5cd4d6c51fbd, type: 3}
+  exit_sfx: {fileID: 8300000, guid: fa05d697befcc4624830ed525556c603, type: 3}
+  character_voice: {fileID: 8300000, guid: 15e745bf515204e1eb7ffeef9fb0791d, type: 3}
 --- !u!1001 &3785887648165722999
 PrefabInstance:
   m_ObjectHideFlags: 0
